@@ -2,14 +2,14 @@
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import {IdentityKitProvider} from "@nfid/identitykit/react"
-import {Plug} from "@nfid/identitykit"
-import "@nfid/identitykit/react/styles.css"
+// import {IdentityKitProvider} from "@nfid/identitykit/react"
+// import {Plug} from "@nfid/identitykit"
+// import "@nfid/identitykit/react/styles.css"
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <IdentityKitProvider >
+  // <IdentityKitProvider >
     <App />
-  </IdentityKitProvider>
+  // </IdentityKitProvider>
 );
 
 // If you want to start measuring performance in your app, pass a function
